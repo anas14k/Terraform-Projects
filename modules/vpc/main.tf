@@ -65,8 +65,6 @@ resource "aws_nat_gateway" "main_nat" {
     tags = {
         name = "main_nat"
     }
-
-  
 }
 
 # Elastic IP for NAT Gateway
